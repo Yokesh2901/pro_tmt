@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['Canisters', 'Capacitors', 'Cylinder', 'Large-Cylinder', 'LargeMotors', 'Motors', 'Shock-Absorbers', 'Small-Cylinder', 'large-canisters', 'large-shock-absorbers', 'others', 'small-shock-absorbers']
+
+roboflow:
+  workspace: hazardous-substances-znfmc
+  project: hazardous-substance-annotation-ls9q0
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hazardous-substances-znfmc/hazardous-substance-annotation-ls9q0/dataset/3
